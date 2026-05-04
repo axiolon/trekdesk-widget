@@ -179,7 +179,7 @@
       iframe.style.width = "100%";
       iframe.style.height = "100%";
       iframe.style.border = "none";
-      iframe.allow = "microphone; clipboard-write; autoplay";
+      iframe.allow = "microphone; autoplay";
       iframe.sandbox = "allow-scripts allow-same-origin";
 
       container.appendChild(iframe);
